@@ -37,3 +37,4 @@ npm run dev        # http://localhost:8787
 - **Accuracy:** meal photo estimates from Workers AI are rougher than Claude's, especially for portion sizes and mixed plates. Treat them as estimates and edit the numbers before saving. For better results, add an `ANTHROPIC_API_KEY` secret to the Worker; if it exists, Claude is used instead.
 - **Muscle groups:** common exercises use a built-in table of mappings based on EMG research (in `public/index.html`, `MKEY` and `MRULES`). The AI is only asked about exercise names that table doesn't recognise.
 - **Free plan CPU limit:** Workers on the free plan allow very little CPU time per request. If photo logging fails, the paid Workers plan lifts the limit.
+push
